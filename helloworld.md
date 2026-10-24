@@ -154,3 +154,113 @@ Run with:
 ```console
 java HelloWorld
 ```
+
+## x86_64 Assembly
+
+```as
+```
+
+Build with:
+
+```console
+TODO
+```
+
+Run with:
+
+```console
+./helloworld
+```
+
+TODO
+
+## ARM64 Assembly
+
+```as
+```
+
+Build with:
+
+```console
+TODO
+```
+
+Run with:
+
+```console
+./helloworld
+```
+
+## Bash
+
+```bash
+echo "Hello, World!"
+```
+
+Run with:
+
+```console
+bash helloworld.sh
+```
+
+## Python
+
+```py
+print("Hello, World!")
+```
+
+Run with:
+
+```console
+python helloworld.py
+```
+
+## Ruby
+
+```rb
+puts "Hello, World!"
+```
+
+Run with:
+
+```console
+ruby helloworld.rb
+```
+
+## PHP
+
+```php
+<?php
+echo "Hello, World!"
+?>
+```
+
+Run with:
+
+```console
+./helloworld
+```
+
+## Perl
+
+```pl
+print("Hello, World!\n")
+```
+
+Run with:
+
+```console
+perl helloworld.pl
+```
+
+## Lua
+
+```lua
+print("Hello, World!")
+```
+
+Run with:
+
+```console
+lua helloworld.lua
+```
