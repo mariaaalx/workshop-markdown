@@ -24,3 +24,133 @@ The table below summarizes the programs:
 |  Perl    |  [The Perl Programming Language](https://www.perl.org/)                | [Perl](#perl)                   | Perl | `perl`                   |
 |  Lua     |  [The Programming Language Lua](https://www.lua.org/)                | [Lua](#lua)                     | Lua | `lua`                    |
 
+## C
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+        puts("Hello, World!");
+        return 0;
+}
+```
+
+Build with:
+
+```console
+gcc -Wall -o helloworld helloworld.c
+```
+
+Run with:
+
+```console
+./helloworld
+```
+
+## C++
+
+```cpp
+#include <iostream>
+
+int main()
+{
+        std::cout << "Hello, World!" << std::endl;
+        return 0;
+}
+```
+
+Build with:
+
+```console
+g++ -Wall -o helloworld helloworld.cpp
+```
+
+Run with:
+
+```console
+./helloworld
+```
+
+## Dlang
+
+```dlang
+import std.stdio;
+
+void main()
+{
+    writeln("Hello, World!");
+}
+```
+
+Build with:
+
+```console
+gdc -Wall -o helloworld helloworld.cpp
+```
+
+Run with:
+
+```console
+./helloworld
+```
+
+## Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+Build and run with:
+
+```console
+go run helloworld.go
+```
+
+## Rust
+
+```rs
+fn main() {
+    println!("Hello, World");
+}
+```
+
+Build with:
+
+```console
+rustc hello.rs
+```
+
+Run with:
+
+```console
+./helloworld
+```
+
+## Java
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+Build with:
+
+```console
+javac HelloWorld.java
+```
+
+Run with:
+
+```console
+java HelloWorld
+```
